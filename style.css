@@ -1,8 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px; 
+}
+p{
+    color: grey;
 }
 .peter-color{
     color: orange;
@@ -15,12 +19,19 @@ section{
     padding: 2%;
 }
 .half-width img{
-width: 100%;    
+width: 100%;  
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
+    color: white;
+    font: weight 700;
     border-radius: 5px;
+    
+}
+.backgrount{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
     
 }
